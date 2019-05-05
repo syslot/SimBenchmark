@@ -12,19 +12,19 @@ add_definitions(-DBT_USE_DOUBLE_PRECISION=ON)
 
 
 add_executable(bulletAnymalDemo AnymalDemo.cpp)
-target_link_libraries(bulletAnymalDemo bulletSim)
+target_link_libraries(bulletAnymalDemo bulletSim raigraphics)
 
 add_executable(bulletAnymalMomentumDemo AnymalMomentumDemo.cpp)
-target_link_libraries(bulletAnymalMomentumDemo bulletSim)
+target_link_libraries(bulletAnymalMomentumDemo bulletSim raigraphics)
 
 add_executable(bulletBallMomentumDemo BallMomentumDemo.cpp)
-target_link_libraries(bulletBallMomentumDemo bulletSim)
+target_link_libraries(bulletBallMomentumDemo bulletSim raigraphics)
 
 add_executable(bulletAnymalEnergyDemo AnymalEnergyDemo.cpp)
-target_link_libraries(bulletAnymalEnergyDemo bulletSim)
+target_link_libraries(bulletAnymalEnergyDemo bulletSim raigraphics)
 
 add_executable(bulletBallEnergyDemo BallEnergyDemo.cpp)
-target_link_libraries(bulletBallEnergyDemo bulletSim)
+target_link_libraries(bulletBallEnergyDemo bulletSim raigraphics)
 
 add_executable(bulletURDFDemo URDFDemo.cpp)
-target_link_libraries(bulletURDFDemo bulletSim)
+target_link_libraries(bulletURDFDemo bulletSim raigraphics)
